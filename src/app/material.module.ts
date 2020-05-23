@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FlexLayoutModule } from '@angular/flex-layout';
+// import { FlexLayoutModule } from '@angular/flex-layout/flex-layout';
 
 import {
 
@@ -46,7 +46,7 @@ import {
 @NgModule({
   imports: [ ],
   exports: [
-    FlexLayoutModule,
+    // FlexLayoutModule,
     MatAutocompleteModule,
     MatBadgeModule,
     MatBottomSheetModule,
