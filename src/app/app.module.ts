@@ -3,8 +3,9 @@ import { AnswersModule } from './answers/answers.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { ColorPickerModule } from 'ngx-color-picker';
+// import { ColorPickerModule } from 'ngx-color-picker';
 import { ChartsModule } from 'ng2-charts';
+import { MaterializeModule } from 'ng2-materialize';
 import { MaterialModule } from './material.module';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -25,11 +26,12 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     BrowserModule,
     AppRoutingModule,
     MaterialModule,
-    ColorPickerModule,
+    // ColorPickerModule,
     ChartsModule,
     FormsModule,
     AnswersModule,
-    HttpClientModule
+    HttpClientModule,
+    MaterializeModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent],
