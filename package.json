@@ -23,7 +23,7 @@
     "@angular/platform-browser-dynamic": "~8.2.14",
     "@angular/router": "~8.2.14",
     "bootstrap": "^3.4.1",
-    "chart.js": "^2.9.3",
+    "chart.js": "^2.9.4",
     "jquery": "^3.3.1",
     "mdi": "^2.2.43",
     "ng2-charts": "^2.3.2",
